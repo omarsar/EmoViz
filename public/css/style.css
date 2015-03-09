@@ -1,0 +1,142 @@
+/* style the basic elements of the page */
+html, body { 
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding:2em;
+    background-color:#eee;
+    color:#777;
+}
+
+h3 {
+    position: absolute;
+    left: 370px;
+    top:0px;
+}
+
+.slider {
+    position:absolute;
+    top: 700px;
+    right:350px;
+    font-size:18px;
+    color:#111;
+}
+
+
+#enplanementButton {
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    font-size: 16px;
+}
+
+ /*style the topoJson elements*/ 
+path {
+    stroke: white;
+  stroke-width: 0.25px;
+  fill: #bdbdbd;
+}
+
+.land { 
+    fill: #ccc;
+}
+
+.states {
+    fill: none;
+    stroke: #fff;
+}
+
+/* style the tooltips */
+.d3-tip {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: none;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    border-radius: 2px;
+}
+
+.legend {
+    
+    position: absolute;    
+    right: 200px;
+    left: 250px;
+    border-radius: 2px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+
+}
+
+
+#first_layer path {
+ fill-opacity:1;
+      fill: none;
+      stroke: grey;
+      stroke-width:0.2px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+.legendcanvas {
+    width:400px;
+    height: 400px;
+    top:0px;
+
+ 
+}
+/*
+svg {
+      width: 1000px;
+      height: 700px;
+    }
+    svg:active {
+      cursor: move;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+    }
+    circle {
+      fill: none;
+      stroke-width: 1.5px;
+    }
+ svg2 {
+      width: 1400px;
+      height: 700px;
+    }
+    svg2:active {
+      cursor: move;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+    }
+*/
+    .axis path, .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+
+.ui-rangeSlider-bar{
+    background:#d7df01;
+}
+
+.ui-rangeSlider-innerBar{
+
+}
+
+#graph {
+    font-size: 13px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #fff;
+   background-color:#d7df01;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}

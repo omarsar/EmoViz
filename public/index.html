@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Twitter Emotion Analysis</title>
+    <link rel="stylesheet" type= "text/css" href="js/jQRangeSlider-5.7.0/css/iThing.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    
+</head>
+<style>
+
+</style>
+<body>
+    <h3>EmoViz - Twitter Emotion Analysis</h3>
+
+    <!-- need a blank div for d3 to 
+    select and insert content into -->
+        
+    <div id="dateslider" style="width: 1100px;padding:0px;"></div>
+    
+    
+    <div style="float:left;">
+    <div id="tweetcanvas" style="width:1098px;border:1px solid;border-color:#bdbdbd;float:left;"> </div>
+            <div id="searchKeyword" ><input type="search" id="mySearch" placeholder="def5" style="margin-left:20px;float:left;"><button onclick="searchEmotion()" style="margin-left:20px;">Search</button>
+            
+            </div>
+            <div id = "wordcloud" ></div>
+            
+    </div>
+    
+    
+
+    <div id="graph" style="height:400;width:1098px;border:1px solid;border-top:1px;border-color:#bdbdbd"></div>
+    <div id="ex10"></div>
+    
+    
+    
+    
+    <!-- a slider for enplanement selection -->
+    
+
+    
+    <!-- a button for enplanement sizing -->
+  
+    <!--<input id="startdate" name="startdate" min="2012-01-01" max="2013-01-01" type="date">-->
+  
+    <!-- dependencies; link to URL's of these, 
+         or download and place in folder -->
+    <script src="js/stopword.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+    <script src="js/jQRangeSlider-5.7.0/jQDateRangeSlider-min.js"></script>   
+    <script src="js/d3.layout.cloud.js"></script> 
+    
+    <!-- OUR SCRIPT -->
+    <script src="js/plot-tweets2.js"></script>
+
+</body>
+</html>
