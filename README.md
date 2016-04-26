@@ -23,4 +23,4 @@ Today, most personalized and recommendation services are built around interest e
 4. Larger dataset
 5. Backend (API) connected with Twitter API.
 
-More details coming soon! For questions please email: ellfae@gmail.com
+For questions please email: ellfae@gmail.com
