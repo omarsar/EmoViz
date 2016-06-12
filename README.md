@@ -14,7 +14,9 @@ Today, most personalized and recommendation services are built around interest e
 ![alt text](https://github.com/omarsar/EmoViz/blob/master/public/dashboard.png)
 
 ## Contributors
-* [Elvis Saravia](http://elvissaravia.com/)
+* [Elvis Saravia](http://elvissaravia.com/) - Research and System Design
+* [Carlos Argueta](https://idea.cs.nthu.edu.tw/people.html) - Emotion API
+* [Yi-Shin Chen](http://www.yishin.info/) - Advisor
 
 ## TODO
 1. Build real-time capabilities
