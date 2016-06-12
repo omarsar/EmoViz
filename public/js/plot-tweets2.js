@@ -646,10 +646,10 @@ function fillKeywordContainer(){
 //Main function that draw map and legend - other functions are called from here. -> Calls groupbydates to draw stack graph -> calls updateEnplanemetFilter
 function updateData(){
   // load and display the World
-  d3.json("./json/world.json", function(error, topology) {
+  d3.json("https://raw.githubusercontent.com/omarsar/EmoViz/master/public/json/world.json", function(error, topology) {
     
     // load and display the cities and plots the dataset
-    d3.json("./json/tweets.json", function(error, data) {
+    d3.json("https://raw.githubusercontent.com/omarsar/EmoViz/master/public/json/tweets.json", function(error, data) {
       g.selectAll("circle")
        .data(data)
        .enter().append("g")
