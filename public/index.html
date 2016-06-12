@@ -24,16 +24,14 @@
                     
                     <div class="col-lg-6">
                         <h2>EmoViz - Twitter Emotion & Interest Analysis</h2>
-                         <!--<div id="searchKeyword" ><input class="form-control" type="search" id="mySearch" placeholder="enter keyword" style="margin-left:0px;float:left;"><button onclick="searchEmotion()" style="margin-left:20px;" class="btn btn-primary">Search</button>
-                                
-                                </div>-->
+ 
                         <div class="row">
 
-                          <div class="col-lg-6">
+                          <div class="col-lg-8">
 
 
                             <div class="input-group" id="searchKeyword">
-                              <input type="search" id="mySearch" class="form-control" placeholder="enter your keyword">
+                              <input type="search" id="mySearch" class="form-control" placeholder="Enter keyword (e.g., iphone)">
                               <span class="input-group-btn">
                                 <button onclick="searchEmotion()" style="" class="btn btn-primary" type="button">Search</button>
                               </span>
@@ -44,23 +42,11 @@
                     
                     <div class="col-lg-2" >
             <div class="" >
-            <img src="images/idealab.jpg" style="width:100px" ; height="100px"/>
-            <div >by IDEALAB</div>
+            <a href="https://idea.cs.nthu.edu.tw/" target="_blank"><img src="images/idealab.jpg" style="width:100px" ; height="100px"/></a>
             </div>
             </div>
             
             </div>
-        <div class="row" style="font-size:13px">
-            <div class="col-lg-7">
-                <div id="keywordcontainer">Suggested keywords (Top 20 most frequent interests):</div>
-            </div>  
-        </div>
-    
-
-        <!-- need a blank div for d3 to 
-        select and insert content into -->
-            
-        <!--<div id="dateslider" style="width: 1100px;padding:0px;"></div>-->
         </br>
         
                 <div class="row">
@@ -78,17 +64,6 @@
                 <div id="ex10"></div>
                 </br>
                 
-            
-        <!-- a slider for enplanement selection -->
-        
-
-        
-        <!-- a button for enplanement sizing -->
-      
-        <!--<input id="startdate" name="startdate" min="2012-01-01" max="2013-01-01" type="date">-->
-      
-        <!-- dependencies; link to URL's of these, 
-             or download and place in folder -->
         <script src="js/stopword.js"></script>
         <script src="//d3js.org/d3.v3.min.js"></script>
         <script src="//d3js.org/topojson.v0.min.js"></script>
@@ -103,7 +78,19 @@
         <script src="js/plot-tweets2.js"></script>
     </div>
     </div>
+
+    <div class="row">
+    <div class="col-lg-12 col-lg-offset-0">
+        <h5>A project by <a href="https://idea.cs.nthu.edu.tw/" target="_blank">IDEA Lab - 2016</a></h5>
+        
+        <h5><a href="https://github.com/omarsar/EmoViz" target="_blank"> Source Code</a></h5>
+        <h5><a href="http://dl.acm.org/citation.cfm?id=2808916" target="_blank">Read Published Paper</a></h5>
     </div>
+    </div>
+
+
+    </div>
+
 
 </body>
 </html>
