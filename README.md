@@ -8,7 +8,7 @@ Today, most personalized and recommendation services are built around interest e
 [Read Whole Paper](http://dl.acm.org/citation.cfm?id=2808916)
 
 ## Demo
-[EmoViz](http://emo-viz.herokuapp.com/)
+[EmoViz](http://bit.ly/emoviz)
 
 ## Dashboard Screenshot
 ![alt text](https://github.com/omarsar/EmoViz/blob/master/public/dashboard.png)
